@@ -1,0 +1,47 @@
+body{
+    background-color:#e3f2ff;
+}
+
+
+div{
+    color:#5f878c;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 110px;
+    border: 2px solid #5f878c;
+    padding: 30px;
+    width: 150px;
+    border-radius: 8px;
+    margin: 40px 60px;
+}
+
+button{
+    background-color: white;
+    color:#72c2ff ;
+    border: 1px solid ;
+    border-radius: 2px;
+    padding: 5px;
+    transition: 0.5s ease; 
+   
+}
+button:hover {
+    background-color: white;
+    transform: scale(1.2);
+    color: #5f878c;
+}
+a{
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: #72c2ff;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+a:hover{
+    background-color: #72c2ff;
+    color: antiquewhite;
+}

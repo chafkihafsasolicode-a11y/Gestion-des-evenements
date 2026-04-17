@@ -1,0 +1,55 @@
+body{
+    background-color: #e3f2ff;
+ 
+ }
+ form{
+     background-color: white;
+     width: 270px;
+     padding: 8px;
+     margin: auto 20px;
+     border: 0.5px solid #b0d8f0;
+     border-radius: 12px;
+ }
+ 
+ input{
+     border: 1px solid  #b0d8f0;
+     border-radius: 6px;
+     
+     font-size: 14px;
+     color: #546e7a;
+     background: #f7fbff;
+ }
+ 
+ input:focus{
+     border-color: #72c2ff;
+ }
+ button{
+     background-color: white;
+     color: #72c2ff;
+     border-radius: 4px;
+     font-size: 15px;
+     transition: 0.5s ease;
+ }
+ 
+ button:hover{
+     transform: scale(1.05);
+     color: #5f878c;
+ 
+ }
+ a {
+     display: inline-block;
+     margin: 30px;
+     border: 1px solid;
+     background-color: white;
+     color: #72c2ff;
+     border-radius: 4px;
+     padding: 10px;
+     font-size: 15px;
+     transition: 0.5s ease;
+ 
+ }
+ 
+ a:hover{
+ transform: scale(1.2);
+ color: #5f878c;
+ }
