@@ -4,6 +4,7 @@ require 'configue.php';
 
 $user=$_SESSION['nom'];
 $email=$_SESSION['email'];
+$userid=$_SESSION['id'];
 
 
 ?>
@@ -38,8 +39,10 @@ if(isset($_POST['ok'])){
 
 <?php
 $sql="SELECT events.title,events.date_event FROM reservations
-INNER JOIN events ON reservations.event_id = events.id";
-$stmt=$pdo->query($sql);
+INNER JOIN events ON reservations.event_id = events.id
+WHERE reservations.user_id = :u_id";
+$stmt=$pdo->prepare($sql);
+$stmt->execute(["u_id"=>$userid]);
 $events=$stmt->fetchAll(PDO::FETCH_ASSOC);
 
 foreach ($events as $event) {
