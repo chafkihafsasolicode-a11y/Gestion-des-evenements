@@ -33,7 +33,6 @@ if(isset($_POST['ok'])){
     echo "<p> Email: $email</p>";
     echo "</div>";
 ?>
-
 </body>
 </html>
 
